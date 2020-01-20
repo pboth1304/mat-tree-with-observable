@@ -1,9 +1,14 @@
-import { CollectionViewer, SelectionChange } from '@angular/cdk/collections';
 import { FlatTreeControl } from '@angular/cdk/tree';
-import { Component, Injectable } from '@angular/core';
-import { BehaviorSubject, merge, Observable, of } from 'rxjs';
-import { map } from 'rxjs/operators';
-import { MatTreeFlattener, MatTreeFlatDataSource } from '@angular/material';
+import { Component } from '@angular/core';
+import { MatTreeFlatDataSource, MatTreeFlattener } from '@angular/material';
+import { of } from 'rxjs';
+
+/**
+ * Ressources:
+ * https://stackblitz.com/edit/material-tree-flat?file=app%2Fapp.component.ts
+ * https://docs.google.com/presentation/d/1DmWdfr8j25owK2ac5qlt7oeX6HpxQnXEGwmHIjf6EHI/preview#slide=id.g35edffb607_0_161
+ *
+ */
 
 interface Folder {
   id: string;
