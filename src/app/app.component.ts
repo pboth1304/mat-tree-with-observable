@@ -75,8 +75,8 @@ export class AppComponent {
         ...FOLDERS,
         {
           id: '15215',
-          title: 'subfoldeager 1',
-          children: [{ id: '21', title: 'subfolder 1212' }]
+          title: 'Root 2',
+          children: [{ id: '21', title: 'subfolder 123' }]
         }
       ];
     }, 3000);
